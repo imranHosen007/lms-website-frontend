@@ -137,7 +137,7 @@ const Header = () => {
                 </Link>
               ) : (
                 <HiOutlineUserCircle
-                  className="cursor-pointer text-black dark:text-white hidden md:block"
+                  className="cursor-pointer text-black dark:text-white "
                   onClick={() => setOpen(true)}
                   size={25}
                 />
